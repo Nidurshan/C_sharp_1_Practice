@@ -1,5 +1,6 @@
 ﻿using C_sharp_1_practice.Practice_1;
 using C_sharp_1_practice.Practice_2;
+using C_sharp_1_practice.Practice_3;
 
 namespace C_sharp_1_practice
 {
@@ -25,30 +26,43 @@ namespace C_sharp_1_practice
 
             //Console.WriteLine("---------------------------------------");
 
-            Vehicle vehicle = new Vehicle();
-            vehicle.SetInput();
-            vehicle.GetOutput();
+            //Vehicle vehicle = new Vehicle();
+            //vehicle.SetInput();
+            //vehicle.GetOutput();
+
+            //Console.WriteLine("---------------------------------------");
+
+            //Car car = new Car();
+            //car.IntroToCar();
+            //car.SetInput();
+            //car.GetOutput();
+
+            //Console.WriteLine("---------------------------------------");
+
+            //Bike bike = new Bike();
+            //bike.IntroToBike();
+            //bike.SetInput();
+            //bike.GetOutput();
+
+            //Console.WriteLine("---------------------------------------");
+
+            //Bus bus = new Bus();
+            //bus.IntroToBus();
+            //bus.SetInput();
+            //bus.GetOutput();
 
             Console.WriteLine("---------------------------------------");
 
-            Car car = new Car();
-            car.IntroToCar();
-            car.SetInput();
-            car.GetOutput();
+            Shape shape = new Shape();
+            shape.SetValues();
+
+            Shape squre = new Squre();
+            squre.Find_Area();
+
+            Shape rectrangle = new Rectrangle();
+            rectrangle.Find_Area();
 
             Console.WriteLine("---------------------------------------");
-
-            Bike bike = new Bike();
-            bike.IntroToBike();
-            bike.SetInput();
-            bike.GetOutput();
-
-            Console.WriteLine("---------------------------------------");
-
-            Bus bus = new Bus();
-            bus.IntroToBus();
-            bus.SetInput();
-            bus.GetOutput();
         }
     }
 }

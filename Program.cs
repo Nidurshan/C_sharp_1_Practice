@@ -23,7 +23,7 @@ namespace C_sharp_1_practice
             //teacher.SetData();
             //teacher.GetData();
 
-            Console.WriteLine("---------------------------------------");
+            //Console.WriteLine("---------------------------------------");
 
             Vehicle vehicle = new Vehicle();
             vehicle.SetInput();

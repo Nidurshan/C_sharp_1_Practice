@@ -15,7 +15,7 @@ namespace C_sharp_1_practice.Practice_3
         {
         }
 
-        public void SetValues()
+        public virtual void SetValues()
         {
             Console.Write("Enter Length: ");
             Length = int.Parse(Console.ReadLine());
@@ -26,7 +26,6 @@ namespace C_sharp_1_practice.Practice_3
 
         public virtual void Find_Area() 
         {
-            throw new NotImplementedException();
         }
     }
 }

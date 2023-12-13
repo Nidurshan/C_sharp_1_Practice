@@ -17,6 +17,11 @@ namespace C_sharp_1_practice.Practice_3
         public override int Length { get => base.Length; set => base.Length = value; }
         public override int Width { get => base.Width; set => base.Width = value; }
 
+        public override void SetValues()
+        {
+            base.SetValues();
+        }
+
         public override void Find_Area()
         {
             base.Find_Area();

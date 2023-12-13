@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace C_sharp_1_practice.Practice_2
 {
-    internal class Car:Vehicle
+    internal class Car : Vehicle
     {
         public string brand, model, color, auto_or_Manual;
         public int speed, tyre, price;
 
-        public Car() 
+        public Car()
         {
         }
 

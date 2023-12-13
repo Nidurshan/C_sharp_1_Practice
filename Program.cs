@@ -53,13 +53,12 @@ namespace C_sharp_1_practice
 
             Console.WriteLine("---------------------------------------");
 
-            Shape shape = new Shape();
-            shape.SetValues();
-
             Shape squre = new Squre();
+            squre.SetValues();
             squre.Find_Area();
 
             Shape rectrangle = new Rectrangle();
+            rectrangle.SetValues();  
             rectrangle.Find_Area();
 
             Console.WriteLine("---------------------------------------");

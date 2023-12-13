@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_sharp_1_practice.Practice_2
 {
-    internal class Bus:Car
+    internal class Bus : Car
     {
         public Bus()
         {
